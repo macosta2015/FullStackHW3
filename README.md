@@ -8,5 +8,8 @@
 
 <img width="229" alt="Screen Shot 2022-03-14 at 4 26 20 AM" src="https://user-images.githubusercontent.com/25726054/158133266-cf0c6851-e3d8-4f87-bd44-43f8e7bbb19b.png">
 
+<img width="1761" alt="Screen Shot 2022-03-14 at 4 26 58 AM" src="https://user-images.githubusercontent.com/25726054/158133370-942aeb10-cecd-4027-9ccc-cfdd8110bf98.png">
+
+
 # CSS Variables 
 # Media Query 

@@ -1,0 +1,115 @@
+.flexbox-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    /* align-items: stretch; */
+    border: 1px #ccc solid;
+    padding: 10px;
+}
+
+.flexbox-item{
+    width: 200px;
+    margin: 10px
+    border: 3px solid #d8a47f;
+    background-color: #1547ab63;
+}
+.flexbox-item-1 {
+    min-height: 100px;
+    background-color: #ab9c15f1;
+}
+
+.flexbox-item-2 {
+    min-height: 100px;
+    background-color: #15ab4a63;
+}
+
+.flexbox-item-3 {
+    min-height: 100px;   
+    background-color: #ab151563;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  header {
+    padding: 50px;
+    text-align: left;
+    background: #1547ab63;
+    color: #fff;
+  }
+  
+  nav {
+    display: flex;
+    background-color: #d8a47f;
+  }
+  
+  nav p {
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  main {
+    display: flex;
+  }
+  
+  aside {
+    flex: 30%;
+    background-color: #b9c6ae;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  section {
+    flex: 70%;
+    background-color: rgb(234, 236, 228);
+    padding: 20px;
+    fle-wrap: wrap;
+  }
+  
+  footer {
+    flex: wrap;
+    padding: 20px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+  }
+  
+  /* Image Placeholders */
+  .sample-img {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    height: 300px;
+    border: 1px solid black;
+    flex: wrap;
+  }
+  
+  /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
+  
+  /* Tablets - header changes color */
+  /* @media screen and (max-width: 992px) {
+    header {
+      background: #772014;
+    }
+  } */
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: #a3f112b5;
+      flex: wrap;
+    }
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    .sample-img {
+      background-color: #c0d2e3;
+    }
+  }
